@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+    line-height: 26px;
+    color: #303030;
+    background-color: #f1ede8;
+    text-align: center;
+    /*margin: 80px auto 0px;*/
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+header{
+    flex-basis: 40%;
+    margin: 80px auto 0px;
+}
+
+main {
+    width: 80%;
+    text-align: justify;
+    flex-basis: 50%;
+    margin: 80px auto 0px;
+}
+
+h1{
+    color: #694D2A;
+    text-shadow: 3px 3px #e2d0b8;
+}
+
+h2{
+    font-style: italic;
+    text-decoration:overline;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h3{
+    color: #B59E7F;
+}
+
+
